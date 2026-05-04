@@ -5,7 +5,62 @@ body{
   padding: 3rem;
   line-height: 1.2;
 }
-
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4rem;
+}
+.home-link{
+  text-decoration: none;
+  color: #1C1917;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+.menu-item{
+  text-decoration: none;
+  color: inherit;
+}
+.menu-item:hover{
+  text-decoration: none;
+  color: #BF5B36;
+}
+.signin, .signup{
+  border-radius: 2rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+}
+.signin{
+  color: #1C1917;
+  background-color: #FFFDF8;
+  border: 1px solid #D9CFC0;
+}
+.signin:hover{
+  color: #BF5B36;
+  border-color: #BF5B36;
+  cursor: pointer;
+}
+.signup{
+  background-color: #BF5B36;
+  color: #FFF;
+  border: none;
+}
+.signup:hover{
+  cursor: pointer;
+  background-color: #944226;
+}
+.example-page-title{
+  color: #BF5B36;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
 .product{
   width: 356px;  
   border-radius: 1rem;
