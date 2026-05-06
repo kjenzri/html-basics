@@ -1,9 +1,11 @@
-body{
+body{ 
   background-color: #F6F1E8;
   font-family: sans-serif;
   color: #5F5A53;
-  padding: 3rem;
-  line-height: 1.2;
+  padding: 1.2rem;
+  line-height: 1.2;   
+  max-width: 1120px;
+  margin-inline: auto;
 }
 header{
   display: flex;
@@ -22,11 +24,11 @@ header{
   justify-content: space-around;
   gap: 1.5rem;
 }
-.menu-item{
+.menu-item, .footer-link{
   text-decoration: none;
   color: inherit;
 }
-.menu-item:hover{
+.menu-item:hover, .footer-link:hover{
   text-decoration: none;
   color: #BF5B36;
 }
@@ -54,13 +56,64 @@ header{
   cursor: pointer;
   background-color: #944226;
 }
-.example-page-title{
+.example-page{
+  margin-bottom: 80px;
+}
+.example-page-title, .products-title{
   color: #BF5B36;
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 1px;
 }
+.example-page-title-2{
+  color: #1C1917;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 1rem 0rem;
+}
+.exmpale-page-description{
+  margin-bottom: 2rem;
+}
+.example-page-subscription{
+  display: flex;
+  gap: 1rem;
+}
+.example-page-subscription-email{
+  border-radius: 2rem;
+  width: 240px;
+  height: 19.2px;
+  padding: 0.75rem 1rem;
+  border: 0.8px solid #D9CFC0;
+  font-size: 1rem;
+}
+.example-page-subscription-button{
+  background-color: #BF5B36;
+  color: #FFF;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+}
+.example-page-subscription-button:hover{
+  cursor: pointer;
+  background-color: #944226;
+}
+
+.products-header{
+  color: #1C1917;
+  line-height: 1;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.products-list{
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 8rem;
+}
+
 .product{
   width: 356px;  
   border-radius: 1rem;
@@ -111,4 +164,21 @@ header{
 
 .product_details:hover{
   color: #BF5B36;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;  
+  border-top: 1px solid #D9CFC0;
+  padding-top: 1rem;
+  align-items: baseline;
+}
+
+.footer-links{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-copyright{  
+  align-self: flex-end;  
 }
