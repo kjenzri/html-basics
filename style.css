@@ -12,6 +12,7 @@ header{
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 4rem;
+  min-width: 800px;
 }
 .home-link{
   text-decoration: none;
